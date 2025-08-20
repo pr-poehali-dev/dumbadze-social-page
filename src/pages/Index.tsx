@@ -60,6 +60,14 @@ export default function Index() {
               <div className="text-sm text-amber-600">Литературная социальная сеть</div>
             </div>
             <div className="flex items-center gap-3">
+              <Button
+                variant="ghost"
+                onClick={() => window.location.href = '/illarion'}
+                className="text-amber-700 hover:text-amber-900 hover:bg-amber-100"
+              >
+                <Icon name="Users" size={16} className="mr-2" />
+                К Иллариону
+              </Button>
               <Icon name="Search" className="text-amber-700 hover:text-amber-900 cursor-pointer" size={20} />
               <Icon name="Bell" className="text-amber-700 hover:text-amber-900 cursor-pointer" size={20} />
               <Icon name="Settings" className="text-amber-700 hover:text-amber-900 cursor-pointer" size={20} />
